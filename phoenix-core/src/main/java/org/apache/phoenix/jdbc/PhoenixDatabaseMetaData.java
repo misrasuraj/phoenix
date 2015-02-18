@@ -1419,7 +1419,7 @@ public class PhoenixDatabaseMetaData implements DatabaseMetaData, org.apache.pho
 
     @Override
     public boolean supportsSchemasInDataManipulation() throws SQLException {
-        return false;
+        return true;
     }
 
     @Override
